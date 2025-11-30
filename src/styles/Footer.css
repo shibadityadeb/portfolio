@@ -1,0 +1,336 @@
+/* Footer Styles */
+
+.footer {
+  color: #ccc;
+  padding: 2.5em 0;
+  animation: fadeIn 1s ease-in-out;
+  font-family: 'Spacegrotesk', sans-serif;
+}
+
+.footer-container-large {
+  max-width: 80em;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3em;
+  padding: 1em 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.footer-text-size-large-space {
+  font-size: 1.9em;
+  line-height: 1.5;
+  max-width: 30em;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-highlight {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  position: relative;
+  color: #fbf4e6;
+  transition: color 0.3s ease;
+  text-shadow: 0 4px 6px rgba(0, 87, 255, 0.15), 0 -4px 6px rgba(255, 90, 0, 0.1), 0 0 20px rgba(255, 255, 255, 0.25);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.footer-highlight::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fbf4e6;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.footer-highlight:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  gap: 2em;
+}
+
+.footer-col {
+  flex: 1;
+  margin: 0 1em;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.footer-col.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer-col:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.footer-col:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.footer-col:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-heading {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.footer-heading.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.footer-link {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 1em;
+  position: relative;
+  font-size: 1.1em;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.footer-col .footer-link:hover {
+  color: #fbf4e6;
+  opacity: 1 !important;
+}
+
+.footer-col .footer-link:not(:hover) {
+  opacity: 0.5;
+}
+
+.footer-col .footer-link:hover ~ .footer-link {
+  color: #888;
+  opacity: 0.5;
+}
+
+.footer-col:first-child .footer-link:hover ~ .footer-link {
+  color: #888;
+  opacity: 0.5;
+}
+
+.footer-col:nth-child(2) .footer-link:hover ~ .footer-link {
+  color: #888;
+  opacity: 0.5;
+}
+
+.footer-col .footer-link:hover {
+  color: #fbf4e6 !important;
+}
+
+.footer-col:nth-child(2) .footer-link:hover {
+  color: #fbf4e6;
+}
+
+.footer-col:nth-child(2) .footer-link:hover ~ .footer-link {
+  color: #888;
+  opacity: 0.5;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  opacity: 0.75;
+  color: #999;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.footer-name-banner {
+  color: #fbf4e694;
+  transition: color 0.3s ease;
+  text-shadow: 0 4px 6px rgba(0, 87, 255, 0.15), 0 -4px 6px rgba(255, 90, 0, 0.1), 0 0 20px rgba(255, 255, 255, 0.25);
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 100%;
+  text-align: center;
+  font-size: 7vw;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.banner {
+  margin-top: -50px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 170px;
+  z-index: 2;
+  width: 500px;
+  transition: 0.7s;
+}
+
+.product .soda {
+  position: absolute;
+  bottom: 0;
+  left: calc(50%);
+  transform: translateX(-50%);
+}
+
+.soda {
+  background: var(--url) 0px,
+      url(https://res.cloudinary.com/dcf0cpuqf/image/upload/v1734447236/mockup_rmuy1a.png) 0 0;
+  background-size: auto 100%;
+  width: 100px;
+  aspect-ratio: 1 / 2;
+  background-blend-mode: multiply;
+  transition: 0.8s;
+  mask-image: url(https://res.cloudinary.com/dcf0cpuqf/image/upload/v1734447236/mockup_rmuy1a.png);
+  mask-size: auto 100%;
+}
+
+.soda:nth-child(2) {
+  opacity: 0;
+}
+
+.product:hover {
+  bottom: 300px;
+}
+
+.product:hover .soda:nth-child(2) {
+  opacity: 1;
+  background-position-x: 500px;
+}
+
+.product:hover .soda:nth-child(1) {
+  opacity: 0;
+  background-position-x: 500px;
+}
+
+.rock {
+  position: absolute;
+  inset: 0 0 0 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.rock img:nth-child(1) {
+  position: absolute;
+  height: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  transition: 0.7s;
+  z-index: 1;
+}
+
+.banner:has(.product:hover) .rock img:nth-child(1) {
+  transform: translateX(-50%) translateY(50px);
+}
+
+@media screen and (max-width: 1023px) {
+  .soda {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .soda {
+    width: 250px;
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col {
+    margin-bottom: 2em;
+  }
+
+  .footer-text-size-large-space {
+    font-size: 1.2em;
+  }
+
+  .footer-heading {
+    font-size: 1.1em;
+  }
+}
+
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-top.visible, .footer-bottom.visible, .footer-name-banner.visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInSlideUp 1s ease-out forwards;
+}
+
+.footer-arrow-indicator {
+  position: absolute;
+  top: -13px;
+  left: 13%;
+  transform: translateX(-50%) rotate(-103deg);
+  width: 20px;
+  height: 20px;
+  border-left: 2px solid #fbf4e6;
+  border-bottom: 2px solid #fbf4e6;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0.8;
+}
