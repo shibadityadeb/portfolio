@@ -28,8 +28,9 @@
   align-items: center;
   height: 56px;
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: nowrap; 
   gap: 16px;
+  min-width: 0;
 }
 
 .nav-left-wrapper {
@@ -168,23 +169,25 @@
 }
 
 .chip-socials-wrapper {
-  grid-column-gap: 1px;
+  grid-column-gap: 4px;
   align-items: center;
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .chip-socials {
   border-radius: 24px;
   justify-content: center;
   align-items: center;
-  height: clamp(40px, 6vh, 56px);
-  padding-left: 16px;
-  padding-right: 12px;
+  height: clamp(40px, 6vh, 48px);
+  padding-left: 12px;
+  padding-right: 10px;
   text-decoration: none;
   transition: background-color .3s cubic-bezier(.165, .84, .44, 1);
   display: flex;
-  gap: 12px;
+  gap: 8px;
   max-width: 100%;
+  min-width: fit-content;
 }
 
 .chip-socials i {
@@ -483,6 +486,18 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .chip-socials {
+    padding-left: 8px;
+    padding-right: 6px;
+    gap: 6px;
+  }
+  
+  .text-socialnav {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .section-nav {
     padding-left: 48px;
@@ -491,11 +506,12 @@
 
   .text-socialnav {
     line-height: 18px;
+    font-size: 12px;
   }
 
   .nav-bar {
-    justify-content: space-evenly;
-    gap: 24px;
+    justify-content: space-between;
+    gap: 12px;
   }
 
   .nav-pill-wrapper {
@@ -505,7 +521,14 @@
 
   .nav-right-wrapper {
     position: relative;
-    left: 55px;
+    left: 10px;
+  }
+
+  .chip-socials {
+    padding-left: 6px;
+    padding-right: 4px;
+    gap: 4px;
+    height: 44px;
   }
 
   .text-logo {

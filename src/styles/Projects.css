@@ -356,3 +356,31 @@ hr.modern {
     height: 3rem;
   }
 }
+/* Project Links Styling */
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.project-link {
+  color: #f2f2f299;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.project-link:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.external-link-icon {
+  color: #f2f2f299;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.external-link-icon:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
