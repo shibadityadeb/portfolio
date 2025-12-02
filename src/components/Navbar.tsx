@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
     } else if (section === 'about') {
       navigate('/about');
     } else if (section === 'resume') {
-      window.open('./assets/resume-instructions.txt', '_blank');
+      window.open('./assets/resume.pdf', '_blank');
     }
   };
 
@@ -98,11 +98,11 @@ const Navbar: React.FC = () => {
               className={`mobile-popup-menu ${mobileMenuOpen ? 'show' : ''}`}
               style={{ display: mobileMenuOpen ? 'flex' : 'none' }}
             >
-              <a href="#" data-placeholder="true" target="_blank" rel="noopener noreferrer" className="popup-menu-item w-inline-block">
+              <a href="https://github.com/shibadityadeb" target="_blank" rel="noopener noreferrer" className="popup-menu-item w-inline-block">
                 <div className="text-popup-menu">GitHub</div>
                 <img src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/644ca61c76573b18898f41f8_icon-open.svg" loading="lazy" alt="External link icon" className="icon-popup-external" />
               </a>
-              <a href="#" data-placeholder="true" rel="noopener noreferrer" target="_blank" className="popup-menu-item w-inline-block">
+              <a href="https://www.linkedin.com/in/shibadityadeb/" rel="noopener noreferrer" target="_blank" className="popup-menu-item w-inline-block">
                 <div className="text-popup-menu">LinkedIn</div>
                 <img src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/644ca61c76573b18898f41f8_icon-open.svg" loading="lazy" alt="External link icon" className="icon-popup-external" />
               </a>
@@ -117,12 +117,12 @@ const Navbar: React.FC = () => {
             </div>
 
             <div className="chip-socials-wrapper">
-              <a href="#" data-placeholder="true" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer" className="chip-socials">
+              <a href="https://github.com/shibadityadeb" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer" className="chip-socials">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" loading="lazy" style={{ filter: 'invert(1)' }} alt="GitHub" className="icon" />
                 <div className="text-socialnav">GitHub</div>
                 <img src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/63e0b50ea0956f4526968ef1_23-icon-external.svg" loading="lazy" alt="Arrow" className="icon-external" />
               </a>
-              <a href="#" data-placeholder="true" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer" className="chip-socials">
+              <a href="https://www.linkedin.com/in/shibadityadeb/" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer" className="chip-socials">
                 <i className="fab fa-linkedin"></i>
                 <div className="text-socialnav">LinkedIn</div>
                 <img src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/63e0b50ea0956f4526968ef1_23-icon-external.svg" loading="lazy" alt="Arrow" className="icon-external" />

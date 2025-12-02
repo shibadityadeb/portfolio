@@ -63,14 +63,14 @@ const Footer: React.FC = () => {
             <div className="footer-heading">Navigation</div>
             <a href="/about" className="footer-link">About</a>
             <a href="/projects" className="footer-link">Projects</a>
-            <a href="./assets/resume-instructions.txt" target="_blank" className="footer-link">Resume</a>
+            <a href="./assets/resume.pdf" target="_blank" rel="noopener noreferrer" className="footer-link">Resume</a>
           </div>
           
           <div className="footer-col">
             <div className="footer-heading">Connect</div>
             <a href="mailto:shibadityadeb.official@gmail.com" className="footer-link">Email</a>
-            <a href="#" data-placeholder="true" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
-            <a href="#" data-placeholder="true" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+            <a href="https://github.com/shibadityadeb" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/shibadityadeb/" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
             <a href="https://www.kaggle.com/debshibaditya" target="_blank" rel="noopener noreferrer" className="footer-link">Kaggle</a>
             <a href="https://leetcode.com/u/Shibaditya_deb" target="_blank" rel="noopener noreferrer" className="footer-link">LeetCode</a>
           </div>
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
         <div className="footer-name-banner">SHIBADITYA</div>
         
         <div className="footer-bottom">
-          <div>© 2024 Shibaditya Deb. All rights reserved.</div>
+          <div>© 2025 Shibaditya Deb. All rights reserved.</div>
         </div>
       </div>
       

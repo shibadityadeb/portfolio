@@ -18,7 +18,7 @@ const AboutPage: React.FC = () => {
               <div className="icon-section-dot"></div>
               <div className="text-projectpage-overline">ABOUT ME</div>
             </div>
-            <div className="text-hero info-hero">I'm passionate about creating beautiful products that <span className="text-info-hero-serif">empower people.</span></div>
+            <div className="text-hero info-hero">Hi — I'm Shibaditya Deb, a sophomore at Newton School of Technology (Pune), full-stack developer, and AI/ML builder driven by the thrill of building experiments that meaningfully help people. Alongside my development work, I’m a published author with two peer-reviewed review papers, contributing research-backed perspectives to emerging trends in AI and technology.</div>
           </div>
           
           <div className="info-hero-stack-mobile">
@@ -35,14 +35,14 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" />
+                    <img src="./assets/school.jpeg" loading="lazy" alt="" />
                   </div>
                 </div>
               </div>
             </div>
             
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Use this block to add your own story.</span><br />Update it with whatever timeline or context matters to you.
+              Alongside my development work, I'm a <span className="text-body-info-emphasis">published author</span> with two peer-reviewed review papers, contributing research-backed perspectives to emerging trends in AI and technology.
             </div>
             
             <div className="container-hero-image info-hero">
@@ -65,7 +65,7 @@ const AboutPage: React.FC = () => {
             </div>
             
             <div className="text-projectpage-body info-hero">
-              Hi — I'm <span className="text-body-info-emphasis">Shibaditya Deb.</span> Sophomore at <span className="text-body-info-emphasis">Newton School of Technology (Pune)</span>. Full-stack developer and AI/ML builder (intermediate). Author of <span className="text-body-info-emphasis">2 review papers</span> on AI. Experienced with <span className="text-body-info-emphasis">SQL</span>, <span className="text-body-info-emphasis">MongoDB</span>, and familiar with <span className="text-body-info-emphasis">LLMs</span> and generative AI systems. (Replace or expand this later as needed.)
+              I grew up as someone who loved to <span className="text-body-info-emphasis">fly</span>—not just across the sky, but toward heights where the <span className="text-body-info-emphasis">unimaginable becomes real.</span>
             </div>
             
             <div className="container-hero-image info-hero">
@@ -88,7 +88,7 @@ const AboutPage: React.FC = () => {
             </div>
             
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Use this area for milestones.</span><br /><br />Write about achievements, lessons, or turning points. Mention communities, hackathons, research, or anything that matters to you.
+              I carry a deep longing to <span className="text-body-info-emphasis">roam the world</span>, to wander through every corner of this planet and let each place leave its <span className="text-body-info-emphasis">story on me.</span>
             </div>
             
             <div className="container-hero-image info-hero">
@@ -111,7 +111,7 @@ const AboutPage: React.FC = () => {
             </div>
             
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Add your craft summary here.</span><br /><br />Talk about how you build products, what tools you enjoy, and the kind of work you want to do next. Swap this placeholder with specifics.
+              I entered college carrying a <span className="text-body-info-emphasis">struggling and heartbreaking backstory</span>, but chose to look forward—with my eyes on the <span className="text-body-info-emphasis">future, not the past.</span>
             </div>
             
             <div className="container-hero-image info-hero">
@@ -134,7 +134,7 @@ const AboutPage: React.FC = () => {
             </div>
             
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Use this space for process + impact.</span><br /><br />Explain how you approach projects, collaborate with teams, or measure success. Replace this paragraph with specific examples once you're ready.
+              From conquering <span className="text-body-info-emphasis">public speaking</span> to leading India's first <span className="text-body-info-emphasis">OCPC Mirror Camp</span> and earning my first internship—my <span className="text-body-info-emphasis">first year became my breakthrough.</span>
             </div>
             
             <div className="container-hero-image info-hero">
@@ -158,12 +158,30 @@ const AboutPage: React.FC = () => {
             
             <div className="info-hero-ending-wrapper">
               <div className="text-projectpage-body info-hero">
-                <span className="text-body-info-emphasis">Add lifestyle or hobbies here.</span><br /><br />Share how you recharge, collaborate, or explore ideas outside of work. Replace this placeholder with your personal details.<br />
+                In the hush of <span className="text-body-info-emphasis">books and ideas</span>, I grow—personally, professionally, endlessly—always reaching for the next challenge that <span className="text-body-info-emphasis">sharpens who I am.</span><br />
               </div>
               <div className="signature-wrapper">
                 <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" className="info-signature" />
               </div>
             </div>
+          </div>
+        </div>
+        
+        <div style={{
+          textAlign: 'center',
+          padding: '3rem 1.5rem',
+          maxWidth: '600px',
+          margin: '0 auto'
+        }}>
+          <div style={{
+            fontStyle: 'italic',
+            fontSize: '1.1rem',
+            lineHeight: '1.6',
+            color: 'rgba(255, 255, 255, 0.85)',
+            fontWeight: '300',
+            letterSpacing: '0.5px'
+          }}>
+            "In quiet growth and rising challenges, I'm building a life where every obstacle becomes a stepping stone toward a new sunrise"
           </div>
         </div>
         <div className="hero-noise"></div>

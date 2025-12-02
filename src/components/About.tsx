@@ -11,7 +11,7 @@ const About: React.FC = () => {
             <div className="text-projectpage-overline">ABOUT ME</div>
           </div>
           <div className="text-hero info-hero">
-            Hi — I'm <span className="text-info-hero-serif">Shibaditya Deb.</span> Sophomore at Newton School of Technology (Pune), full-stack developer, and AI/ML builder who loves shipping experiments that help people. (Replace or expand this later as needed.)
+            Hi — I'm Shibaditya Deb, a sophomore at Newton School of Technology (Pune), full-stack developer, and AI/ML builder driven by the thrill of building experiments that <span className="text-info-hero-serif">meaningfully help people.</span>
           </div>
         </div>
         
@@ -30,20 +30,19 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Placeholder profile image" />
+                    <img src="./assets/school.jpeg" loading="lazy" alt="school image" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="text-projectpage-body info-hero">
-              Hi — I'm <span className="text-body-info-emphasis">Shibaditya Deb.</span> Sophomore at <span className="text-body-info-emphasis">Newton School of Technology (Pune)</span>. Full-stack developer and AI/ML builder (intermediate). Author of <span className="text-body-info-emphasis">2 review papers</span> on AI. Experienced with <span className="text-body-info-emphasis">SQL</span>, <span className="text-body-info-emphasis">MongoDB</span>, and familiar with <span className="text-body-info-emphasis">LLMs</span> and generative AI systems. (Replace or expand this later as needed.)
+              I grew up as someone who loved to <span className="text-body-info-emphasis">fly</span>—not just across the sky, but toward heights where the <span className="text-body-info-emphasis">unimaginable becomes real.</span>
             </div>
           </div>
           
           <div className="content-info-hero has-offset">
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Use this block to add your own story.</span>
-              <br />Share highlights from school, internships, research, or anything that captures your journey. Replace this text with your copy.
+              My journey began at <span className="text-body-info-emphasis">Holy Cross School</span> as a 3.5-year-old child—unknowingly stepping into a story far more beautiful and thrilling than I ever imagined.
             </div>
             <div className="container-hero-image info-hero">
               <div className="glare-item-top outer-edge"></div>
@@ -58,7 +57,7 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Airport view from college life" />
+                    <img src="./assets/fly.jpeg" loading="lazy" alt="Airport view from college life" />
                   </div>
                 </div>
               </div>
@@ -81,20 +80,19 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Basketball court view from college" />
+                    <img src="./assets/travel.jpeg" loading="lazy" alt="travel" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Add your craft summary here.</span>
-              <br />Talk about how you build products, what tools you enjoy, and the kind of work you want to do next. Swap this placeholder with specifics.
+              I entered college carrying a <span className="text-body-info-emphasis">struggling and heartbreaking backstory</span>, but chose to look forward—with my eyes on the <span className="text-body-info-emphasis">future, not the past.</span>
             </div>
           </div>
           
           <div className="content-info-hero has-offset">
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Use this area for milestones.</span><br /><br />Write about achievements, lessons, or turning points. Mention communities, hackathons, research, or anything that matters to you. Replace all of this with your own story.
+              I carry a deep longing to <span className="text-body-info-emphasis">roam the world</span>, to wander through every corner of this planet and let each place leave its <span className="text-body-info-emphasis">story on me.</span>
             </div>
             <div className="container-hero-image info-hero">
               <div className="glare-item-top outer-edge"></div>
@@ -109,7 +107,7 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Serene landscape view" />
+                    <img src="./assets/college.jpeg" loading="lazy" alt="me college" />
                   </div>
                 </div>
               </div>
@@ -132,24 +130,23 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Dog view from college campus" />
+                    <img src="./assets/public.jpeg" loading="lazy" alt="me" />
                   </div>
                 </div>
               </div>
             </div>
             <div className="info-hero-ending-wrapper">
               <div className="text-projectpage-body info-hero">
-                <span className="text-body-info-emphasis">Add lifestyle or hobbies here.</span><br /><br />Share how you recharge, collaborate, or explore ideas outside of work. Replace this placeholder with your personal details. <span className="text-body-info-emphasis">Thanks for stopping by!</span>
+                In the hush of <span className="text-body-info-emphasis">books and ideas</span>, I grow—personally, professionally, endlessly—always reaching for the next challenge that <span className="text-body-info-emphasis">sharpens who I am.</span>
               </div>
-              <div className="signature-wrapper">
-                <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Placeholder signature" className="info-signature" />
-              </div>
+              
+              
             </div>
           </div>
           
           <div className="content-info-hero has-offset">
             <div className="text-projectpage-body info-hero">
-              <span className="text-body-info-emphasis">Use this space for process + impact.</span><br /><br />Explain how you approach projects, collaborate with teams, or measure success. Replace this entire paragraph with specific examples once you're ready.
+              From conquering <span className="text-body-info-emphasis">public speaking</span> to leading India's first <span className="text-body-info-emphasis">OCPC Mirror Camp</span> and earning my first internship—my <span className="text-body-info-emphasis">first year became my breakthrough.</span>
             </div>
             <div className="container-hero-image info-hero">
               <div className="glare-item-top outer-edge"></div>
@@ -164,11 +161,29 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="Placeholder workspace image" />
+                    <img src="./assets/last.jpeg" loading="lazy" alt="Placeholder workspace image" />
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        
+        <div style={{
+          textAlign: 'center',
+          padding: '4rem 2rem',
+          maxWidth: '800px',
+          margin: '0 auto'
+        }}>
+          <div style={{
+            fontStyle: 'italic',
+            fontSize: '1.2rem',
+            lineHeight: '1.6',
+            color: 'rgba(255, 255, 255, 0.85)',
+            fontWeight: '300',
+            letterSpacing: '0.5px'
+          }}>
+            "In quiet growth and rising challenges, I'm building a life where every obstacle becomes a stepping stone toward a new sunrise"
           </div>
         </div>
       </div>
