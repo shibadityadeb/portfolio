@@ -27,11 +27,14 @@
 
 .tech-stack-language {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   perspective: 2000px;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
+  gap: 15px;
+  row-gap: 30px;
 }
 
 .tech-item-language {
@@ -54,6 +57,7 @@
   animation: pulse 3s infinite alternate;
   filter: blur(0px);
   aspect-ratio: 1;
+  flex: 0 0 auto;
 }
 
 .tech-item-language .tech-icon-language {

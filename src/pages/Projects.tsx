@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
+import OpenSourceContributions from '../components/OpenSourceContributions';
+import '../styles/OpenSourceContributions.css';
 
 const ProjectsPage: React.FC = () => {
   useEffect(() => {
@@ -144,9 +146,7 @@ const ProjectsPage: React.FC = () => {
           </div>
         </div>
         
-        <p className="projects-guide">
-          Add your projects by editing <code>projects.html</code> and updating each card with a title, description, link, and screenshot.
-        </p>
+        <OpenSourceContributions showGithubLink={true} />
       </div>
     </div>
   );

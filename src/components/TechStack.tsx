@@ -53,8 +53,23 @@ const TechStack: React.FC = () => {
         <div className="tech-item-language" id="git" data-tech="Git">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" className="tech-icon-language" />
         </div>
-        <div className="tech-item-language" id="ai" data-tech="AI/ML">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="AI/ML" className="tech-icon-language" />
+        <div className="tech-item-language" id="typescript" data-tech="TypeScript">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="tech-icon-language" />
+        </div>
+        <div className="tech-item-language" id="prisma" data-tech="Prisma">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" alt="Prisma" className="tech-icon-language" />
+        </div>
+        <div className="tech-item-language" id="drizzle" data-tech="Drizzle">
+          <img src="https://avatars.githubusercontent.com/u/108468352?s=200&v=4" alt="Drizzle" className="tech-icon-language" />
+        </div>
+        <div className="tech-item-language" id="tensorflow" data-tech="TensorFlow">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" className="tech-icon-language" />
+        </div>
+        <div className="tech-item-language" id="pytorch" data-tech="PyTorch">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" className="tech-icon-language" />
+        </div>
+        <div className="tech-item-language" id="scikitlearn" data-tech="Scikit-learn">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" className="tech-icon-language" />
         </div>
       </div>
     </div>

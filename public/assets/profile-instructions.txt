@@ -1,2 +1,0 @@
-DROP HERE: add your profile images named profile.jpg or profile-<section>.jpg. Replace placeholder files and keep paths identical.
-

@@ -1,2 +1,0 @@
-DROP HERE: upload your latest resume as resume.pdf at the project root or update scripts/links to your preferred path. Delete this file once replaced.
-

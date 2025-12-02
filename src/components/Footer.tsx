@@ -68,14 +68,11 @@ const Footer: React.FC = () => {
           
           <div className="footer-col">
             <div className="footer-heading">Connect</div>
+            <a href="mailto:shibadityadeb.official@gmail.com" className="footer-link">Email</a>
             <a href="#" data-placeholder="true" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
             <a href="#" data-placeholder="true" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
-          </div>
-          
-          <div className="footer-col">
-            <div className="footer-heading">Contact</div>
-            <a href="mailto:add-your-email@example.com" className="footer-link">Email</a>
-            <a href="#" className="footer-link">Schedule a call</a>
+            <a href="https://www.kaggle.com/debshibaditya" target="_blank" rel="noopener noreferrer" className="footer-link">Kaggle</a>
+            <a href="https://leetcode.com/u/Shibaditya_deb" target="_blank" rel="noopener noreferrer" className="footer-link">LeetCode</a>
           </div>
         </div>
         

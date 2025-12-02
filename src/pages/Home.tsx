@@ -8,14 +8,18 @@ import Footer from '../components/Footer';
 
 const Home: React.FC = () => {
   return (
-    <div className="body">
-      <div className="gradient"></div>
-      <Navbar />
-      <Hero />
-      <Quote />
-      <Projects />
-      <TechStack />
-      <Footer />
+    <div className="page-wrapper">
+      <div className="body">
+        <div className="gradient"></div>
+        <main className="site-main">
+          <Navbar />
+          <Hero />
+          <Quote />
+          <Projects />
+          <TechStack />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 };

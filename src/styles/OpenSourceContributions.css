@@ -1,0 +1,202 @@
+/* Open Source Contributions Table Styles */
+
+.open-source-section {
+  width: 100%;
+  max-width: 800px;
+  margin: 3rem auto 0;
+  padding: 0 1rem;
+}
+
+.open-source-container {
+  width: 100%;
+}
+
+.open-source-title {
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.contributions-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.contributions-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.contributions-table th {
+  background: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.875rem;
+}
+
+.contributions-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  vertical-align: top;
+  height: 80px;
+}
+
+.contributions-table tr:last-child td {
+  border-bottom: none;
+}
+
+.contributions-table tr:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.pr-title {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  width: 30%;
+}
+
+.pr-description {
+  color: #f2f2f292;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pr-repo {
+  width: 15%;
+}
+
+.pr-repo a {
+  color: #f2f2f299;
+  text-decoration: none;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  transition: color 0.3s ease;
+}
+
+.pr-repo a:hover {
+  color: #ffffff;
+}
+
+.pr-actions {
+  width: 15%;
+  text-align: center;
+}
+
+.github-link,
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f2f2f299;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.copy-btn {
+  position: relative;
+}
+
+.github-link:hover,
+.copy-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.copy-tooltip {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  z-index: 10;
+  animation: fadeInOut 1.2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateX(-50%) translateY(5px); }
+  20% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  80% { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-5px); }
+}
+
+.github-profile-link {
+  margin-top: 1rem;
+  text-align: center;
+  color: #f2f2f299;
+  font-size: 0.875rem;
+}
+
+.github-profile-link a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.github-profile-link a:hover {
+  color: #f2f2f2;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .contributions-table {
+    font-size: 0.75rem;
+  }
+  
+  .contributions-table th,
+  .contributions-table td {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .pr-title {
+    width: 35%;
+    font-size: 0.75rem;
+  }
+  
+  .pr-description {
+    width: 35%;
+    font-size: 0.7rem;
+  }
+  
+  .pr-repo {
+    width: 20%;
+  }
+  
+  .pr-actions {
+    width: 10%;
+  }
+  
+  .github-link,
+  .copy-btn {
+    width: 24px;
+    height: 24px;
+    margin: 1px;
+  }
+}
