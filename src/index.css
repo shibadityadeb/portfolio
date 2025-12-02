@@ -1,13 +1,220 @@
+/* Enhanced Portfolio Design */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* Enhanced Global Styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', 'SF Pro Text', system-ui, sans-serif;
+  background: #0f3460;
+  color: #f8fafc;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', 'SF Pro Display', system-ui, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  background: linear-gradient(135deg, #f8fafc 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass Morphism Effects */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Enhanced Navigation */
+.text-nav-toggle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.text-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  background: linear-gradient(135deg, #f8fafc 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Enhanced Cards */
+.window-outline {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.window-outline:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.15);
+}
+
+/* Enhanced Text Styles */
+.text-body-info-emphasis {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.text-info-hero-serif {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+/* Enhanced Footer */
+.footer {
+  background: transparent;
+}
+
+.footer-link {
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #3b82f6;
+  transform: translateY(-1px);
+}
+
+.footer-highlight {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+/* Enhanced Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Mobile Responsive Enhancements */
+@media (max-width: 768px) {
+  /* Mobile Hero Section */
+  .homepage-name-landing {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 8vw, 3rem);
+    background: linear-gradient(135deg, #f8fafc 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .homepage-role-landing, .homepage-location-landing {
+    font-family: 'Inter', sans-serif;
+    color: #cbd5e1;
+    font-weight: 500;
+  }
+  
+  .homepage-quote-landing {
+    font-family: 'Inter', sans-serif;
+    color: #cbd5e1;
+    line-height: 1.6;
+  }
+  
+  .homepage-quote-highlight-landing {
+    color: #3b82f6;
+    font-weight: 600;
+  }
+  
+  /* Mobile About Section */
+  .text-hero.info-hero {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #f8fafc;
+    line-height: 1.5;
+  }
+  
+  .text-projectpage-body.info-hero {
+    font-family: 'Inter', sans-serif;
+    color: #cbd5e1;
+    line-height: 1.6;
+  }
+  
+  .text-projectpage-overline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #94a3b8;
+    letter-spacing: 0.1em;
+  }
+  
+  /* Mobile Cards */
+  .window-outline.info-hero {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+  }
+  
+  .container-hero-image.info-hero {
+    transition: all 0.3s ease;
+  }
+  
+  .container-hero-image.info-hero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.15);
+  }
+  
+  /* Mobile Footer - Keep Original Styling */
+  .footer-text-size-large-space {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .footer-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
 }

@@ -58,7 +58,7 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" />
+                    <img src="./assets/fly.jpeg" loading="lazy" alt="" />
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" />
+                    <img src="./assets/travel.jpeg" loading="lazy" alt="" />
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" />
+                    <img src="./assets/college.jpeg" loading="lazy" alt="" />
                   </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" />
+                    <img src="./assets/public.jpeg" loading="lazy" alt="" />
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const AboutPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" />
+                    <img src="./assets/last.jpeg" loading="lazy" alt="" />
                   </div>
                 </div>
               </div>
@@ -159,9 +159,6 @@ const AboutPage: React.FC = () => {
             <div className="info-hero-ending-wrapper">
               <div className="text-projectpage-body info-hero">
                 In the hush of <span className="text-body-info-emphasis">books and ideas</span>, I grow—personally, professionally, endlessly—always reaching for the next challenge that <span className="text-body-info-emphasis">sharpens who I am.</span><br />
-              </div>
-              <div className="signature-wrapper">
-                <img src="./assets/profile-placeholder.jpeg" loading="lazy" alt="" className="info-signature" />
               </div>
             </div>
           </div>
