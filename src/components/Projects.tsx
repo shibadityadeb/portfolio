@@ -124,6 +124,26 @@ const Projects: React.FC = () => {
             <div className="project-container modern">
               <div className="project-card modern">
                 <div className="project-row modern">
+                  <h1 className="project-title modern">GitHub Portfolio Analyzer</h1>
+                  <div className="project-details modern">
+                    <p className="modern">AI-powered GitHub profile analysis for recruiters</p>
+                    <p className="modern">React • Node.js • LLM Integration • API</p>
+                  </div>
+                </div>
+                <a href="https://git-hub-ai-analyzer.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <div 
+                    className="project-image modern" 
+                    style={{ backgroundImage: 'url("./assets/git-analyser.png")' }} 
+                    aria-label="GitHub Portfolio Analyzer project cover"
+                  ></div>
+                </a>
+                <hr className="modern" />
+              </div>
+            </div>
+            
+            <div className="project-container modern">
+              <div className="project-card modern">
+                <div className="project-row modern">
                   <h1 className="project-title modern">Resume Screening System</h1>
                   <div className="project-details modern">
                     <p className="modern">ML-powered recruitment tool with job category prediction</p>
@@ -173,7 +193,7 @@ const Projects: React.FC = () => {
                   <span className="btn-text modern">
                     <span className="btn-text-inner modern">
                       More work
-                      <span className="count-nr modern">5</span>
+                      <span className="count-nr modern">4</span>
                     </span>
                   </span>
                 </a>

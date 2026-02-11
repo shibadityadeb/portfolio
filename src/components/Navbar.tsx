@@ -10,6 +10,8 @@ const Navbar: React.FC = () => {
       navigate('/projects');
     } else if (section === 'about') {
       navigate('/about');
+    } else if (section === 'experience') {
+      navigate('/experience');
     } else if (section === 'resume') {
       window.open('./assets/resume.pdf', '_blank');
     }
@@ -65,6 +67,9 @@ const Navbar: React.FC = () => {
             <div className="nav-pill">
               <a href="#" className="nav-toggle project w-inline-block" onClick={() => handleNavigation('project')}>
                 <div className="text-nav-toggle">Projects</div>
+              </a>
+              <a href="#" className="nav-toggle experience w-inline-block" onClick={() => handleNavigation('experience')}>
+                <div className="text-nav-toggle">Experience</div>
               </a>
               <a href="#" className="nav-toggle about w-inline-block" onClick={() => handleNavigation('about')}>
                 <div className="text-nav-toggle">About</div>
