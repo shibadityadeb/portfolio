@@ -30,7 +30,7 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/school.jpeg" loading="lazy" alt="school image" />
+                    <img src="./assets/school.jpeg" loading="lazy" alt="School building" />
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const About: React.FC = () => {
                     </div>
                   </div>
                   <div className="window-content info-hero">
-                    <img src="./assets/last.jpeg" loading="lazy" alt="Placeholder workspace image" />
+                    <img src="./assets/last.jpeg" loading="lazy" alt="Workspace setting" />
                   </div>
                 </div>
               </div>

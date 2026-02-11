@@ -53,7 +53,7 @@ const Greeting: React.FC = () => {
   return (
     <div id="animation-container" className="welcome-screen">
       <div className="greeting-content">
-        <h1 id="greeting" aria-live="polite"></h1>
+        <h1 id="greeting" aria-live="polite" aria-label="Welcome greeting"> </h1>
       </div>
     </div>
   );
