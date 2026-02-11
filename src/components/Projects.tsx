@@ -188,7 +188,7 @@ const Projects: React.FC = () => {
           <div className="btn-container modern">
             <div className="grid-after-btn modern">
               <div className="btn btn-normal modern">
-                <a href="#" className="btn-click magnetic modern" onClick={handleViewMoreClick} aria-label="View More Work">
+                <button type="button" className="btn-click magnetic modern" onClick={handleViewMoreClick} aria-label="View More Work">
                   <div className="btn-fill modern"></div>
                   <span className="btn-text modern">
                     <span className="btn-text-inner modern">
@@ -196,7 +196,7 @@ const Projects: React.FC = () => {
                       <span className="count-nr modern">4</span>
                     </span>
                   </span>
-                </a>
+                </button>
               </div>
             </div>
           </div>

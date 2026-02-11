@@ -65,24 +65,24 @@ const Navbar: React.FC = () => {
           <div className="nav-pill-wrapper">
             <div className="nav-indicator-glow"></div>
             <div className="nav-pill">
-              <a href="#" className="nav-toggle project w-inline-block" onClick={() => handleNavigation('project')}>
+              <button type="button" className="nav-toggle project w-inline-block" onClick={() => handleNavigation('project')}>
                 <div className="text-nav-toggle">Projects</div>
-              </a>
-              <a href="#" className="nav-toggle experience w-inline-block" onClick={() => handleNavigation('experience')}>
+              </button>
+              <button type="button" className="nav-toggle experience w-inline-block" onClick={() => handleNavigation('experience')}>
                 <div className="text-nav-toggle">Experience</div>
-              </a>
-              <a href="#" className="nav-toggle about w-inline-block" onClick={() => handleNavigation('about')}>
+              </button>
+              <button type="button" className="nav-toggle about w-inline-block" onClick={() => handleNavigation('about')}>
                 <div className="text-nav-toggle">About</div>
-              </a>
-              <a href="#" className="nav-toggle resume w-inline-block" onClick={() => handleNavigation('resume')}>
+              </button>
+              <button type="button" className="nav-toggle resume w-inline-block" onClick={() => handleNavigation('resume')}>
                 <div className="text-nav-toggle">Resume</div>
-              </a>
+              </button>
               <div className="nav-indicator-pill"></div>
             </div>
           </div>
 
           <div className="nav-right-wrapper">
-            <a href="#" className="nav-menu-button w-inline-block" onClick={toggleMobileMenu}>
+            <button type="button" className="nav-menu-button w-inline-block" onClick={toggleMobileMenu}>
               <img 
                 src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/644c8981f87a7036b4c7fa64_icon-%40.svg" 
                 loading="lazy" 
@@ -97,7 +97,7 @@ const Navbar: React.FC = () => {
                 className="icon-contact-close" 
                 style={{ opacity: mobileMenuOpen ? 1 : 0 }}
               />
-            </a>
+            </button>
 
             <div 
               className={`mobile-popup-menu ${mobileMenuOpen ? 'show' : ''}`}
