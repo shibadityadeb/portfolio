@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer';
+import Achievement from '../components/Achievement';
 import '../styles/Experience.css';
 
 const ExperiencePage: React.FC = () => {
@@ -26,6 +27,7 @@ const ExperiencePage: React.FC = () => {
         </div>
         
         <Experience />
+        <Achievement />
       </div>
       
       <Footer />

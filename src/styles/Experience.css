@@ -126,6 +126,37 @@
   pointer-events: none;
 }
 
+/* Achievement section styles */
+.achievement-section {
+  padding: 80px 0;
+  max-width: 882px;
+  margin: 0 auto;
+  color: #f2f2f2;
+}
+
+.achievement-content {
+  padding-top: 24px;
+  font-size: 1.12rem;
+}
+
+.achievement-content p {
+  margin-bottom: 1.4rem;
+  line-height: 1.6;
+}
+
+.achievement-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.achievement-content a {
+  color: #4a90d9;
+  text-decoration: underline;
+}
+
 .experience-card-header {
   display: flex;
   align-items: flex-start;
